@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/ico.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css" />
+
+    <title>Início - Netflix</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header__container">
+        <nav class="header__nav">
+          <a href="#">
+            <img src="./assets/logo.png" class="header__logo" />
+          </a>
+          <div class="header__navigators">
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Bombando</a>
+            <a href="#">Minha Lista</a>
+          </div>
+        </nav>
+        <div class="header__navigator">
+          <a href="#"><i class="bx bx-search bx-sm"></i></a>
+          <a href="#"><i class="bx bxs-bell bx-sm"></i></a>
+          <div class="navigator__user">
+            <img src="./assets/user.png" alt="icone de usuário" />
+            <i class="bx bxs-down-arrow"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main__container">
+        <div class="main__capa"></div>
+
+        <div class="main__sinopse">
+          <img
+            src="./assets/stranger-things-logo.png"
+            alt="Stranger Things"
+            width="100px"
+          />
+          <p>
+            Quando um menino desaparece, uma pequena cidade descobre um grande
+            mistério.
+          </p>
+          <div class="main__buttons">
+            <button class="button__play">
+              <i class="bx bx-play bx-sm"></i>
+              <p>Assistir</p>
+            </button>
+            <button class="button__info">
+              <i class="bx bx-info-circle bx-sm"></i>
+              <p>Mais informações</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <div class="section__container">
+        <div class="section__content">
+          <h4>Populares na Netflix</h4>
+          <div class="section__carousel">
+            <div class="owl-carousel owl-theme">
+              <div class="carousel__midia item">
+                <img src="./assets/serie1.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie2.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie3.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie4.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie5.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__content">
+          <h4>Recomendações para você</h4>
+          <div class="section__carousel">
+            <div class="owl-carousel owl-theme">
+              <div class="carousel__midia item">
+                <img src="./assets/serie6.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie7.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie8.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie9.jpg" />
+              </div>
+              <div class="carousel__midia item">
+                <img src="./assets/serie10.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./scripts/owl/jquery.min.js"></script>
+    <script src="./scripts/owl/owl.carousel.min.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
